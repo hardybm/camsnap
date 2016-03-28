@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/hardybm/camsnap/issues"
   },
-  "homepage": "https://github.com/hardybm/camsnap#readme"
+  "homepage": "https://github.com/hardybm/camsnap#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "mjpeg-camera": "^1.7.2"
+  }
 }
