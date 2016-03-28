@@ -4,6 +4,7 @@
   "description": "Capture a single frame of a mjpeg stream as a jpeg and hand it back to the requester via HTTP",
   "main": "camsnap.js",
   "scripts": {
+    "start": "node camsnap.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,5 +23,6 @@
   "dependencies": {
     "express": "^4.13.4",
     "mjpeg-camera": "^1.7.2"
-  }
+  },
+  "devDependencies": {}
 }
