@@ -9,7 +9,8 @@ forever-service (optional)
 
 #Install  
 Run from wherever you installed it  
-I installed with forever service  
+For example - I installed with forever service which handles logging etc  
+  
 cd camsnap/  
 sudo forever-service install camsnap --script camsnap.js   
 sudo service camsnap start  
